@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Instructor Profile</title>
+    <title>Запросы</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <div class="main-line">
@@ -14,55 +13,35 @@
             <button>Профиль</button>
         </div>
         <button class="">Выйти</button>
+            <button class="main-button">Расписание</button>
+            <button class="main-button">Запросы</button>
+            <button class="main-button">Профиль</button>
+        </div>
+        <button class="main-button">Выйти</button>
     </div>
     <div class="main-line">
         <p class="txt1">Запросы на проведение занятия</p>
     </div>
     <div class="container">
-        <button class="box4">Создать</button>
-        <div class="first_line">
-            <div class="box1">Время</div>
-            <div class="box2">Дата</div>
-            <div class="box3">Студент</div>
-            <div class="box4">Статус</div>
-        </div>
-        <div class="second_container">
-            <div class="other_lines">
-                <div class="box1"><p>1</p></div>
-                <div class="box2">2</div>
-                <div class="box3">3</div>
-                <input type="button" class="box4" value="Принять">
-            </div>
-            <div class="other_lines">
-                <div class="box1">1</div>
-                <div class="box2">2</div>
-                <div class="box3">3</div>
-                <input type="button" class="box4" value="Принять">
-            </div>
-            <div class="other_lines">
-                <div class="box1">1</div>
-                <div class="box2">2</div>
-                <div class="box3">3</div>
-                <input type="button" class="box4" value="Принять">
-            </div>
-            <div class="other_lines">
-                <div class="box1">1</div>
-                <div class="box2">2</div>
-                <div class="box3">3</div>
-                <input type="button" class="box4" value="Принять">
-            </div>
-            <div class="other_lines">
-                <div class="box1">1</div>
-                <div class="box2">2</div>
-                <div class="box3">3</div>
-                <input type="button" class="box4" value="Принять">
-            </div>
-            <div class="other_lines">
-                <div class="box1">1</div>
-                <div class="box2">2</div>
-                <div class="box3">3</div>
-                <input type="button" class="box4" value="Принять">
-            </div>
+        <div class="main-block">
+            <div></div>
+            <div class="buttons">
+                <button class="main-block-button">Удалить</button>
+                <button class="main-block-button">Сохранить</button>
+            </div>   
+            <div class="break"></div> 
+            <p class="field field-type1">Дата</p>
+            <input class="input-type2" type="datetime-local">   
+            <p class="field field-type1">Длительность</p>
+            <select name="time" class="select-time">
+                <option value="1hour">1 час</option>
+                <option value="2hour">2 часа</option>
+                <option value="3hour">3 часа</option>
+                <option value="4hour">4 часа</option>
+            </select>  
+            <p class="field field-type1">Сообщение</p>
+            <div class="break"></div>
+            <textarea placeholder="Введите сообщение..." cols="120" rows="10" type="text"></textarea>
         </div>
     </div>
 </body>
