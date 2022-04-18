@@ -5,7 +5,9 @@
 
 body{
     background: #FEEAE7; 
-    margin: 30px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 25px;
 }
 
 .main-line{
@@ -84,11 +86,11 @@ p.txt1
 }
 .box1, .box2, .box4
 {
-    width: 18.9%;
+    width: 18.3%;
 }
 .box3
 {
-    width: 38.7%;
+    width: 38.6%;
 }
 .second_container button
 {

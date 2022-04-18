@@ -6,7 +6,9 @@
 body{
     background: linear-gradient(280.1deg, #eea299 8.2%, #ffaf94 55.96%);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 30px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 25px;
 }
 
 .main-line{
