@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Запросы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-line">
+        <div>
+            <button class="main-button">Расписание</button>
+            <button class="main-button">Запросы</button>
+            <button class="main-button">Профиль</button>
+        </div>
+        <button class="main-button">Выйти</button>
+    </div>
+    <div class="main-line">
+        <p class="txt1">Запросы на проведение занятия</p>
+    </div>
+    <div class="container">
+        <div class="main-block">
+            <div></div>
+            <div class="buttons">
+                <button class="main-block-button">Удалить</button>
+                <button class="main-block-button">Сохранить</button>
+            </div>   
+            <div class="break"></div> 
+            <p class="field field-type1">Дата</p>
+            <input class="input-type2" type="datetime-local">   
+            <p class="field field-type1">Длительность</p>
+            <select name="time" class="select-time">
+                <option value="1hour">1 час</option>
+                <option value="2hour">2 часа</option>
+                <option value="3hour">3 часа</option>
+                <option value="4hour">4 часа</option>
+            </select>  
+            <p class="field field-type1">Сообщение</p>
+            <div class="break"></div>
+            <textarea placeholder="Введите сообщение..." cols="120" rows="10" type="text"></textarea>
+        </div>
+    </div>
+</body>
+</html>
